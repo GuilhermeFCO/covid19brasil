@@ -1,9 +1,14 @@
 .content {
     width: 100%;
-    height: 600px;
+    height: 650px;
 }
 
 .content-page {
     width: 100%;
     height: 100%;
+}
+
+.content-covid {
+    width: 100%;
+    height: 870px;
 }
