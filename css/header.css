@@ -83,3 +83,8 @@
 .navigation a li:hover {
     color: gray;
 }
+
+body,
+html {
+    height: 100%;
+}
