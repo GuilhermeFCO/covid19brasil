@@ -88,3 +88,80 @@ body,
 html {
     height: 100%;
 }
+
+.text {
+    color: black;
+    font-family: 'Anton', sans-serif;
+}
+
+.title {
+    background-color: #e2e1e1;
+    text-align: center;
+    width: 99vw;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.list {
+    margin: 0px;
+    padding-top: 20px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    justify-self: left;
+    font-size: 23px;
+}
+
+.all {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 600px 400px;
+    grid-template-rows: 1fr;
+}
+
+.slide {
+    justify-self: left;
+    height: 370px;
+    width: 500px;
+    padding-bottom: 0px;
+    font-size: 25px;
+}
+
+.brasil {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 400px;
+    height: 600px;
+    background-color: #e2e1e1;
+}
+
+.item {
+    height: 100%;
+    width: 100%;
+}
+
+.slide p {
+    text-align: justify;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+}
+
+a:link,
+a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+.sociais a:link,
+a:visited {
+    color: black;
+}

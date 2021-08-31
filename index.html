@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/gallery.min.css">
     <link rel="stylesheet" href="css/gallery.theme.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -45,31 +48,101 @@
         </div>
     </header>
 
-    <div style="background-color: black; width: 100%; height: 95%;">
+    <div style="background-color: #e2e1e1; width: 100%; height: 95%;">
 
-        <div class="gallery autoplay items-3">
-            <div id="item-1" class="control-operator"></div>
-            <div id="item-2" class="control-operator"></div>
-            <div id="item-3" class="control-operator"></div>
+        <p class="text title">
+            Bem Vindo ao site Covid-19 Brasil
+        </p>
 
-            <figure class="item">
-                <h1>1</h1>
-            </figure>
+        <div class="all">
+            <div class="list">
+                <p class="text">
+                    Aqui você encontrará:<br>
+                </p>
 
-            <figure class="item">
-                <h1>2</h1>
-            </figure>
+                <ul class="text" style="margin-left: 30px; padding-bottom: 50px;">
+                    <li style="display: list-item; list-style-type: disc;">Dados da Covid-19 no Brasil</li>
+                    <li style="display: list-item; list-style-type: disc;">Índice de Desenvolvimento Humano (IDH)</li>
+                    <li style="display: list-item; list-style-type: disc;">Índice de GINI</li>
+                    <li style="display: list-item; list-style-type: disc;">Índice de Vulnerabilidade Social (IVS)</li>
+                </ul>
 
-            <figure class="item">
-                <h1>3</h1>
-            </figure>
+                <div class="gallery autoplay items-4 slide">
+                    <div id="item-1" class="control-operator"></div>
+                    <div id="item-2" class="control-operator"></div>
+                    <div id="item-3" class="control-operator"></div>
+                    <div id="item-4" class="control-operator"></div>
 
-            <div class="controls">
-                <a href="#item-1" class="control-button">•</a>
-                <a href="#item-2" class="control-button">•</a>
-                <a href="#item-3" class="control-button">•</a>
+                    <figure class="item">
+                        <p id="text" style="font-size: 23px;">
+                            O Índice de Desenvolvimento Humano (IDH) mede o progresso de uma nação a partir de três dimensões: renda, saúde e educação. O índice varia de 0 a 1. Quanto mais próximo de 1, maior o desenvolvimento humano.
+                            <br>Fonte:
+                            <a href="https://www.br.undp.org/content/brazil/pt/home/idh0/conceitos/o-que-e-o-idh.html" target="_blank">
+								Programa das Nações Unidas para o Desenvolvimento (PNUD)
+							</a>
+                        </p>
+                    </figure>
+
+                    <figure class="item">
+                        <p id="text" style="font-size: 20px;">
+                            O Índice de Gini é um instrumento para medir o grau de concentração de renda em determinado grupo.Ele aponta a diferença entre os rendimentos dos mais pobres e dos mais ricos. Numericamente, varia de zero a um (alguns apresentam de zero a cem). O valor
+                            zero representa a situação de igualdade, ou seja, todos têm a mesma renda. O valor um (ou cem) está no extremo oposto, isto é, uma só pessoa detém toda a riqueza.<br>Fonte:
+                            <a href="https://www.ipea.gov.br/desafios/index.php?option=com_content&id=2048:catid=28" target="_blank">
+								Ipea - Instituto de Pesquisa Econômica Aplicada
+							</a>
+                        </p>
+                    </figure>
+
+                    <figure class="item">
+                        <p id="text" style="font-size: 20px;">
+                            O Índice de Vulnerabilidade Social (IVS), mede a vulnerabilidade social de um certo local, a partir da Infraestrutura Urbana, Capital Humano, Renda e Trabalho. O índice varia de 0 a 1, quando mais próximo de 0 menos vulnerabilidade, e quanto mais próximo
+                            de 1 alta vulnerabilidade.
+                            <a style="color: blue;" href="http://ivs.ipea.gov.br/index.php/pt/sobre " target="_blank ">
+								IVS - Atlas de Vulnerabilidade Social
+							</a>
+                        </p>
+                    </figure>
+
+                    <figure class="item ">
+                        <p id="text " style="font-size: 20px; color: black; text-align: center; ">
+                            Autor: Guilherme Fernandes Castro de Oliveira<br><br>
+                            <div class="sociais " style="align-items: center; justify-content: center; text-align: center; ">
+                                <a href="https://www.linkedin.com/in/guifernandesco/ "><i class="fab fa-linkedin " style="font-size:40px; "></i></a>
+                                <a href="https://github.com/GuilhermeFCO "><i class="fab fa-github " style="font-size:40px; "></i></a>
+                                <a href="https://www.facebook.com/guifernandesco "><i class="fab fa-facebook " style="font-size:40px; "></i></a>
+                                <a href="https://www.instagram.com/guifernandesco/ "><i class="fab fa-instagram " style="font-size:40px; "></i></a>
+                                <a href="https://twitter.com/guifernandesco "><i class="fab fa-twitter " style="font-size:40px; "></i></a>
+                                <a href="mailto:guilherme.f.castro@ufv.br "><i class="far fa-envelope " style="font-size:40px; "></i></i></a>
+                            </div>
+                            <br>
+                            <p style="font-size: 20px;">
+                                Os dados utilizados para a construção podem ser obtidos através do pacote covidBR para o <i>software</i> R, para acessar o github do pacote é só clicar no ícone do github no canto superior direito da página.
+                            </p>
+                        </p>
+                    </figure>
+
+                    <div class="controls ">
+                        <a href="#item-1 " class="control-button ">•</a>
+                        <a href="#item-2 " class="control-button ">•</a>
+                        <a href="#item-3 " class="control-button ">•</a>
+                        <a href="#item-4 " class="control-button ">•</a>
+                    </div>
+                </div>
+
             </div>
+
+            <div class="brasil ">
+                <img style="width: 400px; height: 400px; padding-bottom: 10px; " src=./virus.png alt="brasilCovid ">
+                <div style="padding-left: 50px; ">
+                    <p style="font-size: 20px; " class="text ">Apoio:</p>
+                    <img style="width: 250px; height: 150px; padding-left: 30px; " src="./pibic_cnpq.jpg " alt="pibic_cnpq ">
+                </div>
+            </div>
+
+
+
         </div>
+
 
 
     </div>
